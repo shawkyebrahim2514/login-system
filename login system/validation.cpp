@@ -72,12 +72,18 @@ void hidden_password(string& s, string paragraph){
     char c;
     cout << paragraph;
     while (true) {
-        // make character c take user input
         c = getch();
-        if(c == 13) break; // when the user press enter, break this loop
-        // add this character to password string
-        s += c;
-        printf("*"); // print the input chartered in the form of *
+        if(c == 13){
+            // if the user press enter, break the loop
+            break;
+        }else if(c == 8 && s.size()){
+            // if user press backspace
+            s.pop_back();
+            wcout << '\b' << ' ' << '\b';
+        }else if(c != 8){
+            cout << '*';
+            s.push_back(c);
+        }
     }
     cout << '\n';
 }

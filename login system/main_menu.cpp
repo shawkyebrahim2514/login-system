@@ -7,7 +7,7 @@ void fill_space(string paragraph, int paragraph_width){
     int width = 180;
     cout << string((width/2) - (paragraph_width/2),' ')<< paragraph;
 }
-
+ 
 void show_menu(){
     // store all paragraphs in a vector
     vector<string>menu_choices(5);

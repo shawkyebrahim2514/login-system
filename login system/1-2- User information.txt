@@ -1,8 +1,0 @@
-ID name password Email phone-numebr
-
-
-map<ID, struct>users
-set<string>emails
-all user passwords should be saved in a set
-
-ID and emails only used one time

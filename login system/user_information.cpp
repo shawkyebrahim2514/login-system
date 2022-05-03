@@ -72,16 +72,10 @@ void load_file_information(){
         user user_class(info[1],info[2],info[3],info[4]);
         // store each user information in this map
         users_list.insert({info[0],user_class});
+        // store each email in the emails set
+        emails.insert(info[3]);
     }
     users_information.close();
-    //---------------------------------------------------------------------------------------
-    // fill all emails in emails set
-    fstream emails_file;
-    emails_file.open("all emails.txt", ios::in);
-    while (getline(emails_file,line)){
-        emails.insert(line);
-    }
-    emails_file.close();
     //-----------------------------------------------------------------------------------------
     //fill each user passwords set with previous passwords
     fstream  previous_passwords;
@@ -105,9 +99,8 @@ void load_file_information(){
 
 void save_information(){
     // open users information, all emails and previous passwords, delete its content, and append new one
-    fstream users_information,emails_file,previous_passwords;
+    fstream users_information,previous_passwords;
     users_information.open("users information.txt",ios::out);
-    emails_file.open("all emails.txt",ios::out);
     previous_passwords.open("user passwords.txt",ios::out);
     for(auto& val : users_list){
         // line will contain each user information
@@ -116,12 +109,10 @@ void save_information(){
         line += val.second.copy_information();
         // append each line information into the user file
         users_information << line;
-        // append each user email into all emails file
-        emails_file << val.second.email << '\n';
         // append user id and his previous passwords
         line = val.first + val.second.copy_previous_passwords();
         previous_passwords << line;
     }
-    emails_file.close();
+    previous_passwords.close();
     users_information.close();
 }
