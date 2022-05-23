@@ -25,6 +25,10 @@
   <property name="windowTitle">
    <string>user registration</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="sources.qrc">
+    <normaloff>:/Images/user (1).png</normaloff>:/Images/user (1).png</iconset>
+  </property>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
