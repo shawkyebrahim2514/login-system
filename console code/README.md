@@ -35,3 +35,16 @@
 
 
 > Exit
+
+## some of photos
+> register
+
+![image](https://user-images.githubusercontent.com/101745968/169892931-cdce2fb5-a647-4948-8cc2-a03c2ae2f690.png)
+
+> login
+
+![image](https://user-images.githubusercontent.com/101745968/169895492-0b1948c4-d20c-43fd-9a5e-db4d7bf7f9db.png)
+
+> change password
+
+![image](https://user-images.githubusercontent.com/101745968/169895647-465b2801-a1a4-4d72-b598-f3cefd7f2d7c.png)
