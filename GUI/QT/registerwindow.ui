@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>registerWindow</class>
+ <widget class="QDialog" name="registerWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>625</width>
+    <height>750</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>625</width>
+    <height>750</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>625</width>
+    <height>750</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>user registration</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>625</width>
+     <height>750</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="sources.qrc">:/Images/template_Register.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="IDarea">
+   <property name="geometry">
+    <rect>
+     <x>165</x>
+     <y>108</y>
+     <width>360</width>
+     <height>67</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+background:transparent;
+border-radius:45px;
+padding:15px;
+	font: 700 10pt &quot;Segoe UI&quot;;
+color:rgb(143, 142, 138);
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>Enter you ID</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="passwordArea">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>200</y>
+     <width>321</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+background:transparent;
+border-radius:45px;
+padding:15px;
+	font: 700 10pt &quot;Segoe UI&quot;;
+color:rgb(143, 142, 138);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Enter you password</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="againpasswordArea">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>300</y>
+     <width>321</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+background:transparent;
+border-radius:45px;
+padding:15px;
+	font: 700 10pt &quot;Segoe UI&quot;;
+color:rgb(143, 142, 138);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Enter you password again</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="nameArea">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>390</y>
+     <width>360</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+background:transparent;
+border-radius:45px;
+padding:15px;
+	font: 700 10pt &quot;Segoe UI&quot;;
+color:rgb(143, 142, 138);
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>Enter you name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="emailArea">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>485</y>
+     <width>360</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+background:transparent;
+border-radius:45px;
+padding:15px;
+	font: 700 10pt &quot;Segoe UI&quot;;
+color:rgb(143, 142, 138);
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>Enter you email</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="phoneArea">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>575</y>
+     <width>360</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+background:transparent;
+border-radius:45px;
+padding:15px;
+	font: 700 10pt &quot;Segoe UI&quot;;
+color:rgb(143, 142, 138);
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>Enter you phone number</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>648</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background : transparent;
+border-radius:10px;
+}
+
+QPushButton::hover{
+background:rgba(255, 255, 255, 50);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="showPasswordButton">
+   <property name="geometry">
+    <rect>
+     <x>473</x>
+     <y>220</y>
+     <width>41</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background : transparent;
+border-radius:10px;
+}
+
+QPushButton::hover{
+background:rgba(255, 255, 255, 50);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="showAgainPasswordButton">
+   <property name="geometry">
+    <rect>
+     <x>473</x>
+     <y>320</y>
+     <width>41</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background : transparent;
+border-radius:10px;
+}
+
+QPushButton::hover{
+background:rgba(255, 255, 255, 50);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="sources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

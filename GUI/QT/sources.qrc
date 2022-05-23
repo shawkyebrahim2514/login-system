@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Images/template_change password.png</file>
+        <file>Images/template_Login.png</file>
+        <file>Images/template_main window.png</file>
+        <file>Images/template_Register.png</file>
+    </qresource>
+</RCC>
