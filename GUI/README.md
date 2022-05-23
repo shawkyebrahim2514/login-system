@@ -1,37 +1,22 @@
-# Simple user login with CPP
+# QT GUI
+> main window
 
-## Program menu
-> Register
+![image](https://user-images.githubusercontent.com/101745968/169896586-1dc22f08-25cc-4892-9fdb-3a4277615abc.png)
 
-```
-  > A new user can register and add his profile
-  > User should enter: ID, password, name, email and phone number
-  > New user's ID and email should not be used before by anyone else
-  > Emails should be in the format: "alphabets or digit characters followed by @ then domain name and in the end (.com)"
-  > password should be in the format: "must contain at least one alphabetic character and one digit and one symbol and the length of the password must be at least 12 letters"
-  > Name should be in the format: "only alphabetic letters or underscore(_)"
-  > Email should be in the format: "alphabets or digit characters followed by @ then domain name and in the end (.com)"
-  > Phone number should be in the format: "(010) or (011) or (012) or (015) + (8)digits"
-  > Passwords are stored encrypted
-```
+> register window
 
-> Login
+![image](https://user-images.githubusercontent.com/101745968/169896644-4ba6abbd-d2ce-4cea-8a08-c8d4629a96a4.png)
 
-```
-  To login:
-    > User should enter his ID, ID must be exist in the database
-    > User should enter correct password to access his profile
-    > A user has 3 trial to enter his password
-    > if his trials ends, user failed to login and return to the main menu
-```
+![image](https://user-images.githubusercontent.com/101745968/169896813-7e8055fa-2c6d-461e-99c2-385e396802a3.png)
 
-> Change password
+> login widnow
 
-```
-  > First, user will login to his profile
-  > User should enter new password that follows the above restrictions
-  > The new password must not be used before by the user himself
-```
+![image](https://user-images.githubusercontent.com/101745968/169896918-489fb745-3368-4821-9356-4fde46331f7f.png)
 
+![image](https://user-images.githubusercontent.com/101745968/169896945-883bc90f-4cd9-4dde-9d8d-294dcdade9c9.png)
 
-> Exit
+> change password window
+
+![image](https://user-images.githubusercontent.com/101745968/169897007-315322d2-2c4d-4226-b58f-4472bcf622f6.png)
+
+![image](https://user-images.githubusercontent.com/101745968/169897064-992de4b6-5b2a-4cce-8309-27351c66a66b.png)
